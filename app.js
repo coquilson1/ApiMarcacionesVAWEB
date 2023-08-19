@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 var app = express();
 
 //route file 
-var project_routes = require('./routes/project');
+var mark_routes = require('./routes/mark');
 
 //middlewares
 app.use(bodyParser.urlencoded({extended:false}));
@@ -23,7 +23,7 @@ app.use((req, res, next) => {
 });
 
 //routes 
-app.use('/apiVaweb', project_routes); 
+app.use('/apiVaweb', mark_routes); 
 
 
 //exportar 

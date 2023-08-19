@@ -3,9 +3,9 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-var MarcacionSchema = Schema({
+var MarkSchema = Schema({
     test: String,
     testS: String
 })
 
-module.exports = mongoose.model('Marcacion',MarcacionSchema)
+module.exports = mongoose.model('Mark',MarkSchema);

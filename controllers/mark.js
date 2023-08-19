@@ -1,7 +1,7 @@
 'use strict'
 
 const { exit } = require('process');
-//const marcacion = require('./models/marcacion');
+const marcacion = require('../models/mark');
 //var Marcacion = require('./models/marcacion');
 
 var controller = {
